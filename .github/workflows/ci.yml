@@ -19,5 +19,5 @@ jobs:
 
           git config --local user.email "xuqingjian8@gmail.com"
           git config --local user.name "Sean Xu"
-          git commit -m "`date '+Daily Commit: at %Y-%m-%d %H:%M'`"
+          git commit -m "`date '+Daily Commit: at %Y-%m-%d %H:%M'`" --allow-empty
           git push origin master
